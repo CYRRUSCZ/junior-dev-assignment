@@ -14,7 +14,7 @@ Aplikace bude zobrazovat jednoduchý **Kanban board se třemi sloupci** (*To Do*
   - **přidat** novou kartičku (titulek + obsah),  
   - **upravit** existující kartičku (titulek, obsah, stav),  
   - **smazat** kartičku.  
-- Stylování pomocí čistého **Bootstrap (poslední verze)**, bez dalších knihoven pro UI.  
+- Stylování pomocí čistého **Bootstrap 5.3**, bez dalších knihoven pro UI. Stačí zalinkovat z cdn.jsdelivr.net. Nemělo by být nutné psát vlastní styly.  
 
 ### Backend (NestJS, TypeScript)
 - REST API pro CRUD operace nad úkoly.  
@@ -38,7 +38,7 @@ Aplikace bude zobrazovat jednoduchý **Kanban board se třemi sloupci** (*To Do*
 
 ---
 
-## Bonusové úkoly *(nepovinné, ale vítané)*
+## Bonusové úkoly *(nepovinné)*
 1. **Dockerizace aplikace** – připravit `Dockerfile` a případně `docker-compose.yml` pro spuštění celé aplikace (frontend + backend + databáze).  
 2. **Drag & Drop** – podpora pro přetahování kartiček mezi sloupci.  
 3. **Řazení úkolů ve sloupci** – možnost měnit pořadí kartiček.  
@@ -48,7 +48,8 @@ Aplikace bude zobrazovat jednoduchý **Kanban board se třemi sloupci** (*To Do*
 ---
 
 ## Odevzdání
-- Odevzdání formou **veřejného GitHub repozitáře**.  
+- Odevzdání formou **veřejného GitHub repozitáře**.
+- Preferuje se optimální poměr mezi časem nutným pro vývoj a množstvím features.   
 - README musí obsahovat:  
   - stručný popis řešení a postupu při vývoji,  
   - postup pro lokální spuštění (Frontend + Backend, případně docker-compose).  
